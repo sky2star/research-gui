@@ -1,0 +1,64 @@
+- id: root
+  name: My Research Portfolio
+  children:
+  - id: proj_gnn_drug_discovery
+    name: 基于GNN的新型药物分子发现
+    status: In-Progress
+    description: 利用图神经网络进行虚拟筛选和分子属性预测。
+    notes: ''
+    children:
+    - id: lit_review
+      name: 文献综述与前沿调研
+      status: Completed
+      description: 调研图神经网络在分子表示学习中的应用现状。
+      children:
+      - id: lit_sub_zinc
+        name: ZINC数据库调研
+        status: Completed
+        children: []
+      - id: lit_sub_gcn
+        name: GCN/GAT模型调研
+        status: Completed
+        children: []
+    - id: data_prep
+      name: 数据集准备与预处理
+      status: In-Progress
+      description: 从ZINC和ChEMBL数据库清洗和构建分子图数据集。
+      notes: 当前正在处理ZINC15子集，遇到了数据不平衡问题。
+      children:
+      - id: item_f4295a26
+        name: New Item - Edit Me
+        status: Locked
+        description: ''
+        notes: ''
+        children: []
+    - id: model_design
+      name: 模型理论设计
+      status: Unlocked
+      description: 设计一个带有注意力机制的新型GNN架构。
+      children:
+      - id: item_5efd128d
+        name: New Item - Edit Me
+        status: Locked
+        description: ''
+        notes: ''
+        children: []
+    - id: item_b5862a7f
+      name: New Item - Edit Me
+      status: Locked
+      description: ''
+      notes: ''
+      children: []
+  - id: proj_nlp_sentiment
+    name: 基于Transformer的情感分析模型
+    status: Planning
+    description: 探索BERT及其变体在细粒度情感分析上的应用。
+    children:
+    - id: nlp_data_collection
+      name: 数据收集
+      status: Locked
+      children: []
+    - id: nlp_model_selection
+      name: 模型选型
+      status: Locked
+      children: []
